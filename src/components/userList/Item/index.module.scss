@@ -1,0 +1,50 @@
+.Container {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background: #eee;
+    padding: 20px 40px;
+    border-radius: 13px;
+    margin-top: 4rem;
+    .btns {
+        width: 80vw;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        button {
+            padding: 10px 15px;
+            border-radius: 5px;
+            outline: none;
+            border: 1px solid #ddd;
+            cursor: pointer;
+            font-weight: bold;
+            font-family: cursive;
+            transition: 0.3s;
+            background-color: white;
+            &:hover {
+                box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+                background-color: #eee;
+            }
+        }
+    }
+    .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 70px;
+
+        span {
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        span:first-child {
+            font-weight: bold;
+        }
+    }
+}

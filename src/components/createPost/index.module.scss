@@ -1,0 +1,57 @@
+.Container {
+    padding: 50px;
+    .goBack {
+        margin-right: auto;
+        width: fit-content;
+        padding: 10px 15px;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        font-weight: bold;
+        font-family: cursive;
+        transition: 0.3s;
+        display: flex;
+        justify-content: end;
+        &:hover {
+            box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+            background-color: #eee;
+        }
+    }
+    form {
+        width: 400px;
+        margin: 30px auto;
+        padding: 15px;
+        background-color: #eee;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        .title {
+            font-family: cursive;
+            font-weight: 600;
+        }
+        input , textarea{
+            height: 40px;
+            border: 0;
+            outline: none;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .submitBtn {
+            width: fit-content;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            border: 0;
+            outline: none;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}

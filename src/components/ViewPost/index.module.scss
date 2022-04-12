@@ -1,0 +1,42 @@
+.Container {
+    padding: 50px;
+    .goBack {
+        margin-right: auto;
+        width: fit-content;
+        padding: 10px 15px;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        font-weight: bold;
+        font-family: cursive;
+        transition: 0.3s;
+        display: flex;
+        justify-content: end;
+        &:hover {
+            box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+            background-color: #eee;
+        }
+    }
+    .data {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 15px;
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            row-gap: 15px;
+            background-color: #ddd;
+            padding: 10px;
+            border-radius: 10px;  
+            span{
+                span{
+                    font-weight: bold;
+                }
+            }  
+        }
+    }
+}
